@@ -10,20 +10,18 @@ public class PRICE_CHECKING_MACHINE {
         PRODUCT_DICTIONARY.put("PN5", 5);
         PRODUCT_DICTIONARY.put("PN6", 6);
         System.out.println(PRODUCT_DICTIONARY);
+        while (true) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Enter product name (or 'quit' to stop):");
+            String p_n = scanner.nextLine();
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter product name (or 'quit' to stop):");
-        String p_n = scanner.nextLine();
-
-        if(p_n.equals("quit") || p_n.equals("stop")){
-            System.out.println("Program terminated by user.");
-        }
-        else if(PRODUCT_DICTIONARY.containsKey(p_n)) {
-            System.out.println("Product:" + p_n + "\nProduct Price:" + PRODUCT_DICTIONARY.get(p_n));
-        }
-        else {
-            System.out.println("Product is not available");
+            if (p_n.equals("quit") || p_n.equals("stop")) {
+                break;
+            } else if (PRODUCT_DICTIONARY.containsKey(p_n)) {
+                System.out.println("Product:" + p_n + "\nProduct Price:" + PRODUCT_DICTIONARY.get(p_n));
+            } else {
+                System.out.println("Product is not available");
+            }
         }
     }
 }
-
