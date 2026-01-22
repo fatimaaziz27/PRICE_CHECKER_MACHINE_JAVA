@@ -24,23 +24,6 @@ A simple Java console application that checks the price of products using a dict
 
 ---
 
-## ▶️ How to Run
-
-1. Make sure Java is installed on your system.
-2. Save the file as `PRICE_CHECKING_MACHINE.java`.
-3. Compile the program:
-
-   ```
-   javac PRICE_CHECKING_MACHINE.java
-   ```
-4. Run the program:
-
-   ```
-   java PRICE_CHECKING_MACHINE
-   ```
-
----
-
 ## 💡 Example Output
 
 ```
@@ -53,28 +36,3 @@ Product is not available
 
 Enter product name (or 'quit' to stop): quit
 ```
-
----
-
-## ⚠️ Notes
-
-* Product names are **case-sensitive** (e.g., `PRODUCT_1` is valid, `product_1` is not).
-* The `Scanner` is created inside the loop in this version; for better practice, it can be created once outside the loop.
-
----
-
-## 🛠️ Technologies Used
-
-* Java
-* `java.util.HashMap`
-* `java.util.Scanner`
-
----
-
-## 👩‍💻 Author
-
-Fatima Aziz
-
----
-
-Happy Coding 🚀
