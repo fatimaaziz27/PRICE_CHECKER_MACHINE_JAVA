@@ -4,7 +4,7 @@ A simple Java console application that checks the price of products using a dict
 
 ---
 
-## 📌 Features
+##  Features
 
 * Uses `HashMap<String, Integer>` to store product names and prices
 * Continuously accepts user input using a `while` loop
@@ -14,7 +14,7 @@ A simple Java console application that checks the price of products using a dict
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. A `HashMap` stores product names as keys and prices as values.
 2. The program repeatedly asks the user to enter a product name.
@@ -24,7 +24,7 @@ A simple Java console application that checks the price of products using a dict
 
 ---
 
-## 💡 Example Output
+##  Example Output
 
 ```
 Enter product name (or 'quit' to stop): PRODUCT_1
