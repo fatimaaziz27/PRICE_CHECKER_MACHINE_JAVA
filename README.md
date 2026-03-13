@@ -66,5 +66,3 @@ This project demonstrates the use of:
 * **User Input using Scanner**
 * **Conditional Statements**
 * **Basic Data Lookup**
-
----
