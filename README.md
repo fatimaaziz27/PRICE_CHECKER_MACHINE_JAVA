@@ -1,38 +1,70 @@
-# PRICE_CHECKING_MACHINE
+# Price Checking Machine (Java)
 
-A simple Java console application that checks the price of products using a dictionary (`HashMap`). The program continuously asks the user for a product name and displays its price if available.
+A simple **Console-Based Price Checking Machine** built in **Java**.
+This program allows users to **enter a product name and instantly check its price** using a dictionary structure.
 
----
-
-##  Features
-
-* Uses `HashMap<String, Integer>` to store product names and prices
-* Continuously accepts user input using a `while` loop
-* Allows exiting the program using `quit` or `stop`
-* Displays the product price if the product exists
-* Shows an error message if the product is not available
+The system keeps running until the user types **quit** or **stop**.
 
 ---
 
-##  How It Works
+## Features
 
-1. A `HashMap` stores product names as keys and prices as values.
-2. The program repeatedly asks the user to enter a product name.
-3. If the user types `quit` or `stop`, the program exits.
-4. If the product exists in the dictionary, its price is displayed.
-5. If the product does not exist, a "Product is not available" message is shown.
+* Check product price by entering product name
+* Uses a **HashMap dictionary** to store product names and prices
+* Displays price if the product exists
+* Shows **"Product is not available"** if the product is not found
+* Program runs continuously until the user exits
 
 ---
 
-##  Example Output
+## Example Products
 
+```text
+PRODUCT_1 → Price: 1
+PRODUCT_2 → Price: 2
+PRODUCT_3 → Price: 3
+PRODUCT_4 → Price: 4
+PRODUCT_5 → Price: 5
+PRODUCT_6 → Price: 6
 ```
-Enter product name (or 'quit' to stop): PRODUCT_1
-Product: PRODUCT_1
-Product Price: 1
 
-Enter product name (or 'quit' to stop): PRODUCT_9
+---
+
+## Example Output
+
+### Product Available
+
+```text
+Enter product name (or 'quit' to stop): PRODUCT_3
+
+Product: PRODUCT_3
+Product Price: 3
+```
+
+### Product Not Available
+
+```text
+Enter product name (or 'quit' to stop): PRODUCT_10
+
 Product is not available
+```
 
+### Exit Program
+
+```text
 Enter product name (or 'quit' to stop): quit
 ```
+
+---
+
+## Concepts Used
+
+This project demonstrates the use of:
+
+* **Java HashMap (Dictionary)**
+* **Loops (while loop)**
+* **User Input using Scanner**
+* **Conditional Statements**
+* **Basic Data Lookup**
+
+---
